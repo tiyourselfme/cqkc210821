@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <name>fuling</name>
+        <description>fuling  chongqing</description>
+        <gx:CascadingStyle kml:id="__managed_style_11E7322CFD1C8C580F39">
+            <Style>
+                <IconStyle>
+                    <Icon>
+                        <href>https://earth.google.com/earth/rpc/cc/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+                    </Icon>
+                    <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+                </IconStyle>
+                <LabelStyle>
+                </LabelStyle>
+                <LineStyle>
+                    <color>ff2dc0fb</color>
+                    <width>4</width>
+                </LineStyle>
+                <PolyStyle>
+                    <color>40ffffff</color>
+                </PolyStyle>
+                <BalloonStyle>
+                    <gx:displayMode>card</gx:displayMode>
+                </BalloonStyle>
+            </Style>
+        </gx:CascadingStyle>
+        <gx:CascadingStyle kml:id="__managed_style_28F03804511C8C580F39">
+            <Style>
+                <IconStyle>
+                    <scale>1.2</scale>
+                    <Icon>
+                        <href>https://earth.google.com/earth/rpc/cc/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+                    </Icon>
+                    <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+                </IconStyle>
+                <LabelStyle>
+                </LabelStyle>
+                <LineStyle>
+                    <color>ff2dc0fb</color>
+                    <width>6</width>
+                </LineStyle>
+                <PolyStyle>
+                    <color>40ffffff</color>
+                </PolyStyle>
+                <BalloonStyle>
+                    <gx:displayMode>card</gx:displayMode>
+                </BalloonStyle>
+            </Style>
+        </gx:CascadingStyle>
+        <StyleMap id="__managed_style_0156767D0B1C8C580F39">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#__managed_style_11E7322CFD1C8C580F39</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#__managed_style_28F03804511C8C580F39</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Placemark id="032B0597871C8C580F35">
+            <name>涪陵区</name>
+            <gx:mid>/m/025s_w</gx:mid>
+            <gx:fid>0x369300832bb0e82b:0xaafda18e375b4c45</gx:fid>
+            <LookAt>
+                <longitude>107.3328029</longitude>
+                <latitude>29.68058995</latitude>
+                <altitude>0</altitude>
+                <heading>0</heading>
+                <tilt>0</tilt>
+                <gx:fovy>35</gx:fovy>
+                <range>161575.9145150296</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0156767D0B1C8C580F39</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>107.389298,29.703113,0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

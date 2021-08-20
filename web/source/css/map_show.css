@@ -1,0 +1,215 @@
+body {
+    background: linear-gradient(0deg, #071b34, #071b34, #071b34) !important;
+}
+.c1, .c2 {
+    position: fixed;
+    top: 70px;
+    z-index: 100;
+    width: 180px;
+    /*height: 450px;*/
+    height: auto;
+    margin-top: 65px;
+    margin-left: 77px;
+    /*background: rgba(8, 36, 96, 0.6);*/
+    /*border: 2px #0e90d2 solid;*/
+}
+.c1_layer {
+    position: fixed;
+    top: 70px;
+    z-index: 101;
+    width: 180px;
+    /*height: 450px;*/
+    height: auto;
+    margin-top: 65px;
+    margin-left: 77px;
+    /*background: rgba(8, 36, 96, 0.6);*/
+    /*border: 2px #0e90d2 solid;*/
+}
+.c1_fh {
+    position: fixed;
+    top: 70px;
+    z-index: 102;
+    width: 270px;
+
+    height: 560px;
+
+    margin-left: 77px;
+    border: 2px #0e90d2 solid;
+    right: 30px;
+    margin-top: 145px;
+    background: rgba(8, 36, 96, 0.5);
+}
+.accordion {
+    margin-bottom: 0 !important;
+}
+.map {
+    margin-top: 10px;
+    position: relative;
+    width: auto;
+    height: 850px;
+    padding: 9px;
+    border: 7px solid #006dcc;
+    border-radius: 30px;
+    /*border: 2px #0e90d2 solid;*/
+}
+
+.c7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 100;
+    /*border: 2px #0e90d2 solid;*/
+}
+.c6 {
+    /*border: 2px #0e90d2 solid;*/
+    background: rgba(8, 36, 96, 0.5);
+
+}
+.c6_layer {
+    /*border: 2px #0e90d2 solid;*/
+    background: rgba(8, 36, 96, 0.5);
+
+}
+.c6 div {
+    border: none !important;
+    color: #eee;
+}
+.c1_fh_data {
+}
+.c6_layer div {
+    border: none !important;
+    color: #eee;
+}
+.accordion-heading a {
+    color: #eee !important;
+    text-decoration: none;
+}
+.accordion-heading a:hover, .accordion-inner:hover {
+    color: #0e90d2 !important;
+    cursor: pointer;
+
+}
+.accordion-inner {
+    padding-left: 30px;
+}
+.c2 {
+    right: 30px;
+    margin-top: 145px;
+
+}
+.c2_layer {
+    right: 30px;
+    margin-top: 145px;
+}
+.c1 {
+    left: 0;
+    margin-top: 145px;
+}
+.c1_layer {
+    left: 0;
+    margin-top: 145px;
+}
+.d-block {
+    display: block;
+}
+.d-none {
+    display: none;
+}
+.navbar-inner {
+    /*background: linear-gradient(0deg , #1a50c4 , #082460, #1a50c4) !important;*/
+    background-image: url("../../source/img/4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #071b34;
+    color: #fff !important;
+    font-family: "Microsoft YaHei UI";
+    height: 81px;
+    width: 1877px;
+    font-size: 20px;
+    line-height: 60px;
+    border-width: 0;
+    border-color: #1b3b61;
+
+}
+.navbar {
+    height: 80px;
+}
+.navbar-inner li {
+    font-size: 16px !important;
+    line-height: 60px;
+}
+.navbar .nav {
+    margin-left: 600px;
+    margin-top: 10px;
+}
+.navbar .nav > li {
+    margin-left: 20px;
+    width: 120px;
+}
+.navbar .nav > li > a,
+.navbar .brand {
+    color: inherit;
+    text-shadow: none !important;
+    padding: 0 24px;
+}
+.navbar .nav > li > a:hover {
+    color: #0e90d2;
+    background-image: url("../../source/img/8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+button, input, textarea {
+    outline: none;
+}
+.btn:focus {
+    outline: none;
+}
+.c5 {
+    line-height: 36px;
+    background: #0e90d2;
+    color: #fff;
+    padding: 0 6px;
+    position: relative;
+}
+.c5_layer {
+    line-height: 36px;
+    background: #0e90d2;
+    color: #fff;
+    padding: 0 6px;
+    position: relative;
+}
+.c1_fh_perproties {
+    line-height: 36px;
+    background: #0e90d2;
+    color: #fff;
+    padding: 0 6px;
+    position: relative;
+}
+.closeBtn {
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    margin-top: -7px;
+    cursor: pointer;
+}
+select::-ms-expand {
+    display: none;
+}
+.info-select {
+    width: 0;
+    margin-left: 0;
+    border: none;
+    outline: none;
+    /*将默认的select选择框样式清除*/
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    /*在选择框的最右侧中间显示小箭头图片*/
+    background: url(../img/arrow.png) no-repeat scroll right center transparent;
+}
+.table tr td {
+    color: white;
+}

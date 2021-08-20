@@ -1,0 +1,131 @@
+.data-box{
+    width: 100%;
+    height: 100%;
+    padding: 0 24px 24px;
+    box-sizing: border-box;
+    background: linear-gradient(0deg , #1a50c4 , #082460, #1a50c4) !important;
+    overflow: hidden;
+}
+.data-left-menu{
+    width: 15%;
+    height: 836px;
+    background: #073b6f;
+    float: left;
+}
+.data-right-table{
+    width: 83%;
+    height: 100%;
+    /*background: #eee;*/
+    float: right;
+}
+.menu-title{
+    line-height: 36px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 10px;
+    background: #075882;
+    text-align: center;
+    color: #fff;
+}
+.search-box{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px !important;
+    line-height: 36px !important;
+    background: #073b6f;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+.search-input{
+    float: left;
+    height: 36px !important;
+    border: none !important;
+    width: 90% !important;
+    background: none !important;
+    padding: 0 !important;
+    padding-left: 16px !important;
+    box-sizing: border-box;
+    color: #fff !important;
+}
+.search-btn{
+    float: right;
+    height: 24px;
+    width: 24px;
+    margin-top: 12px;
+    transform: scale(1.5);
+    overflow: hidden;
+    display: block;
+    line-height: 36px;
+    font-size: 24px !important;
+    cursor: pointer;
+}
+.bread{
+    line-height: 36px;
+    margin-bottom: 0;
+    color: #fff;
+}
+.bread button{
+    float: right;
+    width: 100px;
+    height: 36px;
+    transform: scale(.8);
+    font-size: 16px;
+    outline: none;
+}
+.bread button:focus{
+    outline: none;
+}
+.bread button i{
+    padding-right: 10px;
+    font-weight: normal;
+    transform: scale(1.8);
+}
+.table-box{
+    width: 100%;
+    height: 800px;
+    background: #fff;
+}
+.thead-box,.tbody-box{
+    width: 100%;
+}
+.thead-box tr,.tbody-box tr{
+    width: 100%;
+    display: flex;
+}
+.thead-box tr th{
+    background: #c3c3c3;
+}
+.thead-box tr th,
+.tbody-box tr td{
+    flex: 1;
+    text-align: left;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.tbody-box tr td input{
+    margin-top: 0;
+}
+.thead-box tr th:last-child,
+.tbody-box tr td:last-child{
+    flex: 1.5 !important;
+}
+.docId{
+    padding: 0 10px;
+}
+.operate{
+    width: 100%;
+    display: flex;
+}
+.operate button{
+    flex: 1;
+    padding: 0;
+    height: 30px;
+    margin: 0 5px;
+    margin-top: 6px;
+    color: #fff;
+    outline: none;
+}
+.operate button:focus{
+    outline: none;
+}
